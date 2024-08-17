@@ -53,6 +53,10 @@ section {
    
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -64,14 +68,29 @@ section.normal{
 
 section.imagem {
     background-color: darkorange;
-    color: blue;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;
 
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.459);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../Desafio012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../Desafio012/imagens/background002.jpg') ;
+    background-size: cove;
+    background-position: right center;
 }
 
 footer {
